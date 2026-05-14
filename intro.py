@@ -12,7 +12,8 @@ print(101)'''
 # a='6.6'
 # print(type(a))
 
-a=input("Enter your name: ")
+a=input("Enter your age: ") #"55"
+print(type(a))
 print(a)
-print(a)
-print(a)
+
+# print("Leo")
