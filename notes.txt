@@ -1,0 +1,63 @@
+Python
+---------
+>> It is an interpreted, high-level, Dynamically Typed, OOP programming language.
+
+Human written code (print, input)
+|
+|(Compilation)
+|
+Binary code (0s 1s)
+|
+|(Interpretation)
+|
+Machine code 
+
+Extension of python ---> .py
+
+ctrl + ~ --> terminal
+
+Command to execute python file --> python filename.py
+
+print
+---------
+>> To show data at the output.
+print(data)
+
+input 
+-------
+>> To prompt input from user 
+input("Prompt def")
+
+Syntax 
+-------
+>> Case sensitive (a is not A)
+>> Indentation Important. (whitespace to define block of code)
+
+Comments
+----------
+>> Comments are ignored by python.
+increases readability.
+disable code snippet temporarily.
+
+Single line comments ---> #
+Multi line comment ---> ''' '''
+
+Datatypes 
+----------
+to find datatype of a data --> type(data)
+
+Integer ---> Whole Numbers. 1, 2, 0 ,-2,-222
+Float ---> Decimal Numbers. 7.77, 9.0
+
+String ---> Sequence of characters. '', "". 
+"It's a toy"
+'I said "GM"'
+
+Boolean ---> True or False
+
+Variables  
+-----------
+>> Named memory that stores a data.
+varName = value
+
+
