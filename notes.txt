@@ -53,6 +53,7 @@ Float ---> Decimal Numbers. 7.77, 9.0
 String ---> Sequence of characters. '', "". 
 "It's a toy"
 'I said "GM"'
+Concatination --> + 
 
 Boolean ---> True or False
 
@@ -61,4 +62,17 @@ Variables
 >> Named memory that stores a data.
 varName = value
 
+Naming Rules 
+-------------
+>> letters, number, _ these characters are allowed
+>> cannot start with numeric
+>> No reserved keywords.
+
+Type Casting 
+--------------
+89 --> "89"
+int(val)
+str(val)
+float(val)
+bool(val)
 
