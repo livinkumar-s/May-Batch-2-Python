@@ -76,3 +76,67 @@ str(val)
 float(val)
 bool(val)
 
+Operators 
+-----------
+>> It is a symbol or keyword that performs an operation on values.
+
+Arithmetic Operators
+-----------------------
+Addition --> +
+Subtraction --> -
+Multiplication --> *
+Division --> /
+Floor division --> // (Quotient)
+Modulus --> % (Reminder) 4%5 --> 5*0 --> 0 --> 4
+Exponentiation --> **
+
+BODMAS
+
+Comparison Operators (Boolean)
+---------------------
+== equality
+!= Not equal
+< Lesser than
+> Greater than 
+<= Lesser than or equal
+>= Greater than or equal
+
+Logical Operators (Bool --> Bool)
+------------------
+and --> True --> Both are True. False --> Otherwise
+or --> False --> Both are False. True --> Otherwise
+not --> inverts a Bool
+
+Assignment Operators 
+---------------------
+= assign 
++= add assign
+-= sub and assign
+*= mul and assign 
+/= div and assign 
+//= floor div and assign 
+%= mod and assign 
+**= expo and assign
+
+Bitwise Operators 
+--------------------
+& --> and --> performs and operation with bits.
+| --> or --> performs or operation with bits.
+~ --> not --> invert the bits. (~n=-(n+1))
+^ --> x-or --> performs x-or operation with bits.(same--> 0. diff--> 1)
+>> --> Right shift. val>>pos 
+<< --> Left Shift. val<<pos
+
+Identity Operator 
+---------------------
+
+Membership Operator 
+----------------------
+
+
+2's Comp = 1's comp + 1
+
+00 -->0
+10, 01 -->1
+11 --> 10
+111 --> 11
