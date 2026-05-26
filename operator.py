@@ -47,8 +47,8 @@
 # print(a)
 
 # Bitwise operator 
-a=19
-b=13
+# a=19
+# b=13
 
 # print(a&b)
 # print(a|b)
@@ -56,4 +56,4 @@ b=13
 # print(a^b)
 # print(44>>3)
 # print(66<<2)
-print(~33)
+# print(~33)

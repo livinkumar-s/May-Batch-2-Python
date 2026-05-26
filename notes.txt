@@ -140,3 +140,42 @@ Membership Operator
 10, 01 -->1
 11 --> 10
 111 --> 11
+
+Control Flow 
+------------
+Conditional Clause statements(if,else,elif)
+-----------------------------------------------
+if 
+-----
+Syntax
+----------
+if condition:
+    block of code
+
+True ---> will execute the block of code. False ---> will not execute the block.
+
+elif
+-----
+elif condition:
+    block of code
+True ---> will execute the block of code. False ---> will not execute the block.
+
+else 
+-----
+Syntax 
+----------
+else:
+    block of code
+
+False --> will execute the block of code. True ---> will not execute the block.
+
+Nested if 
+-----------
+conditional clause statement inside another.
+
+if cond1:
+    if cond2:
+        block of code
+
+Looping statements - (for(sequence based loop), while(condition based))
+
