@@ -134,6 +134,23 @@ Membership Operator
 ----------------------
 
 
+Sequence (Iterable object)
+---------------------------
+len(obj) --> length of a sequence
+>> Collection of elements arranges in specific order.
+Ex: String, List, Set, Tuple, Dict....
+
+"Hello" --> length --> 5
+
+Indexing and Slicing 
+---------------------
+Each element has a position.
+seq[ind]
+a="Livin"
+a[4] --> 'n'
+
+negative indexing --> starts with -1
+
 2's Comp = 1's comp + 1
 
 00 -->0
@@ -178,4 +195,30 @@ if cond1:
         block of code
 
 Looping statements - (for(sequence based loop), while(condition based))
+--------------------------------------------
+while(condition based loop) (no of iteration is not known)
+----------------------
+syntax
+-------
+while condition:
+    block of code 
 
+As long as the condition is True it will keep on executing the block of code.
+
+for loop (sequence based loop)
+-------------------------------
+syntax
+-------
+for varName in sequence:
+    block of code
+
+Range --> used to create temporary sequence.
+----------------------------------------------
+range(len) --> range(10) --> [0,1,2,3...9]
+range(strt,end) --> range(14,100) --> [14....99]
+range(strt,end,step) --> range(12,29,3) -->[12,15,18....27]
+
+Control Statements 
+---------------------
+break --> stops the loop
+continue --> skips the current iteration

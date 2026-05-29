@@ -66,4 +66,96 @@
 # else:
 #     print("Invalid Marks")
 
- 
+
+# Looping Statements 
+#5 times
+
+# x=0
+
+# while x>5:
+#     print("Hi")
+#     print("-----------")
+#     x+=1
+
+# No of execution --> 1,2,3,4,5
+# x = 0,1,2,3,4,5
+
+
+# str1="Livinkumar saravanan"
+
+# print(str1[-3])
+
+# a="Virat"
+# b=range(15,25,5)
+# print(list(b))
+# print(len(a))
+
+
+
+# for x in b:
+#     print(x)
+#     print("---------")
+
+# for i in range(1,101):
+#     print(i)
+
+# for x in range(100, 0, -1):
+#     print(x)
+
+# for i in range(1,91):
+#     if i==45:
+#         continue
+#     print(i)
+
+# print("Loop is over...!")
+# print("Loop is over...!")
+# print("Loop is over...!")
+
+# i=0
+
+# while i<=100:
+#     if i==50:
+#         i+=1
+#         continue
+#     print(i)
+#     i+=1
+
+# no of execution: infinite
+# numbers: 0-50
+
+# i =0... 50, 51,51,51,51,51...
+
+# str1="MS Dhoni"
+
+# i=0
+
+# while i<len(str1):
+#     print(str1[i])
+#     i+=1
+
+# for i in str1:
+#     print(i)
+
+# for i in range(100):
+#     print("Hello")
+
+
+# secretNumber=33
+
+# while True:
+#     inp=int(input("Guess the Number: "))
+#     if secretNumber==inp:
+#         print("You won")
+#         break
+#     else:
+#         print("Try again..!")
+
+# for i in range(100):
+#     if i%2==0:
+#         print(i)
+
+# for i in range(1,6): # 5 iter 1 2 3 4 5
+#     for j in range(1,6): # 5 iter 1 2 3 4 5
+#         print(i)
+#         print(j)
+#         print("-------------")
