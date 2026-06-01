@@ -159,3 +159,8 @@
 #         print(i)
 #         print(j)
 #         print("-------------")
+
+# a=170
+
+# if a&1==1:
+#     print("odd")

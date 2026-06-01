@@ -51,6 +51,7 @@ Integer ---> Whole Numbers. 1, 2, 0 ,-2,-222
 Float ---> Decimal Numbers. 7.77, 9.0
 
 String ---> Sequence of characters. '', "". 
+>> Immutable.
 "It's a toy"
 'I said "GM"'
 Concatination --> + 
@@ -149,6 +150,16 @@ seq[ind]
 a="Livin"
 a[4] --> 'n'
 
+Slicing 
+--------
+>> Extract part of a sequence.
+a="Hello world" --> "llo"
+
+seq[start:] --> a[3:] --> "lo world"
+seq[:end] --> a[:6] --> "Hello "
+seq[start:end] --> a[2:7]--> "llo w"
+seq[::-1] --> a[::-1]-->"dlrow ..."
+
 negative indexing --> starts with -1
 
 2's Comp = 1's comp + 1
@@ -157,6 +168,7 @@ negative indexing --> starts with -1
 10, 01 -->1
 11 --> 10
 111 --> 11
+
 
 Control Flow 
 ------------
@@ -222,3 +234,71 @@ Control Statements
 ---------------------
 break --> stops the loop
 continue --> skips the current iteration
+
+Data Structures (sequences)
+--------------------
+to store multiple values in a single variable.
+
+List 
+------
+>> [val1,val2.....]
+>> Ordered
+>> Mutable(Changable)
+>> Duplicates are allowed.
+
+In built methods 
+-------------------
+.append(ele)
+.insert(pos,ele)
+.extend(iterObj)
+
+.remove(ele) --> first occur
+.pop(ind)
+.pop()
+
+.count(ele)
+.index(ele)
+
+.sort()
+.reverse()
+
+Tuple 
+------
+>> (v1,v2...)
+>> Ordered
+>> Immuutable(not Changable)
+>> Duplicates are allowed.
+
+In built methods 
+---------------------
+.count(ele)
+.index(ele)
+
+Packing and unpacking
+------------------------
+person1=("Hendry",33)
+
+name=person1[0]
+age=person1[1]
+
+name,age=person1
+
+Set 
+-------
+>>{v1,v2,v3..}
+>> No Duplicates 
+>> unordered 
+>> not indexed
+>> Mutable 
+
+in built methods 
+-----------------
+.add()
+.remove()
+
+.union(set)
+.intersection(set)
+.difference(set)
+
+Dictionary 
+--------------
