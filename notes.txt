@@ -76,6 +76,10 @@ int(val)
 str(val)
 float(val)
 bool(val)
+list()
+tuple()
+set()
+dict()
 
 Operators 
 -----------
@@ -302,3 +306,15 @@ in built methods
 
 Dictionary 
 --------------
+>> {key1:value, key2:value....}
+>> Mutable 
+>> values can be repeated. but keys cannot be.
+>> Ordered 
+
+In built methods 
+---------------------
+.keys()
+.values()
+.items()
+
+.pop(key)

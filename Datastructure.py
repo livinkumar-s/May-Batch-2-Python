@@ -91,3 +91,34 @@ s2={1,2,3,4,5}
 # lis1=[1,2,3]
 # lis1.append(9)
 # print(lis1)
+
+# set1={21,324,321}
+# set1[2]
+
+# for i in set1:
+#     print(i)
+
+# Dictionary 
+
+# dict1={
+#     "name":"Ken",
+#     "age":55,
+#     "isMarried":True,
+#     "favNo":55,
+#     "favMovies":["F1","Micheal"]
+# }
+
+# for i in dict1:
+#     print(dict1[i])
+
+# dict1["age"]=56
+# dict1["role"]="FED"
+
+
+# print(list(dict1.keys()))
+# print(tuple(dict1.values()))
+# print(dict1.items())
+# dict1.pop("favNo")
+# print(dict1)
+
+# print(dict1["favMovies"][1])
