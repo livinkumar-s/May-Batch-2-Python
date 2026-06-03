@@ -316,5 +316,63 @@ In built methods
 .keys()
 .values()
 .items()
-
 .pop(key)
+
+Functions 
+-------------
+>> Block of reusable code that performs a specific task.
+
+In built functions ---> print, input...
+user defined functions
+
+syntax:
+-------
+def fnName():
+    block of code 
+
+call --> fnName()
+
+Parameter and Arguments 
+------------------------
+P --> variables created in function definition without a value.
+A --> values passed to that Parameter while calling.
+
+Positional Arguments 
+----------------
+Order Matters
+
+Keyword Arguments 
+-----------------
+passing arguments with keyword
+
+Default Parameter 
+--------------------
+assigning default value to a parameter
+
+Variable length argument 
+---------------------------
+*args 
+to collect n number of arguments
+
+**args 
+to collect n number of key, value pairs.
+
+return keyword 
+-----------------
+>> stops the function
+>> it returns a value to the caller
+
+Recursion 
+-----------
+function calls itself.
+
+def func():
+    ....
+    func()
+
+Scopes
+----------
+>> refers to place where variable can be accessed.
+
+Local --> created in a function. accessible within that function
+Global --> created outside the function. accessible anywhere
