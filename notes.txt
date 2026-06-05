@@ -55,6 +55,43 @@ String ---> Sequence of characters. '', "".
 "It's a toy"
 'I said "GM"'
 Concatination --> + 
+Repetition --> *
+
+In built methods 
+--------------------
+.upper()
+.lower()
+.title()
+.capitalize()
+
+.strip()
+.lstrip()
+.rstrip()
+
+.replace(old, new)
+
+.split()
+.join(iter)
+
+.find() --> -1
+.count(ele)
+
+.isalpha()
+.isdigit()
+.isalnum()
+
+.startswith(str)
+.endswith()
+
+Escape characters 
+--------------------
+\
+\t --> tab
+\n --> new line
+
+Formatted String 
+----------------
+f" {var1}  {var2}.... "
 
 Boolean ---> True or False
 
@@ -134,9 +171,11 @@ Bitwise Operators
 
 Identity Operator 
 ---------------------
+is, is not
 
 Membership Operator 
 ----------------------
+in, not in
 
 
 Sequence (Iterable object)
