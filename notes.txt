@@ -4,7 +4,7 @@ Python
 
 Human written code (print, input)
 |
-|(Compilation)
+|(Compilation)(Syntax errors)
 |
 Binary code (0s 1s)
 |
@@ -437,3 +437,28 @@ Modes
 
 with open(fileName, mode) as varName:
     block of code 
+
+Error
+------
+>> it is a problem that stops the code from running.
+
+Syntax Errors 
+--------------
+>> When you make error in the structure of code.
+Example: SyntaxError, IndentationError
+
+Runtime Errors (Exceptions)
+---------------
+>> during runtime.
+example: NameError,TypeError,ValueError,ZeroDivisionError...
+
+try:
+    block of code 
+except errName:
+    handling block
+.
+.
+finally:
+    block of code
+
+Logical Errors
