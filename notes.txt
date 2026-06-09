@@ -415,3 +415,25 @@ Scopes
 
 Local --> created in a function. accessible within that function
 Global --> created outside the function. accessible anywhere
+
+File Handling 
+---------------
+To open a file ---> open(filaName, mode)
+To close a file --> .close()
+
+To read content --> read()
+.tell()
+.seek()
+To read contents line by line --> readline() .readlines()
+
+To write content --> write(content)
+
+Modes 
+--------
+'r' --> read 
+'w' --> write (over write)
+'a' --> append 
+'x' --> create
+
+with open(fileName, mode) as varName:
+    block of code 
