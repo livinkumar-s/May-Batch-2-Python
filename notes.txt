@@ -462,3 +462,30 @@ finally:
     block of code
 
 Logical Errors
+
+OOP -> Object Oriented Pogramming
+------------------------------------
+It is a programming pattern that organizes code using class and objects.
+
+Bottle --> color, height, rad.. --> open, closed.
+
+Blueprint --> Obj1, obj2..
+class ---> obj1, obj2....
+
+Data --> Attributes 
+Actions --> Methods 
+
+class 
+-------
+>> blueprint or template for creating objects.
+syntax :
+class clsName:
+    attr, methods
+
+Object 
+---------
+it is an instance of a class 
+Class()
+
+Attributes --> class attributes, Object Attributes
+Methods --> class methods, instance methods, static methods
