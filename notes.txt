@@ -489,3 +489,6 @@ Class()
 
 Attributes --> class attributes, Object Attributes
 Methods --> class methods, instance methods, static methods
+
+
+pip install packageName
